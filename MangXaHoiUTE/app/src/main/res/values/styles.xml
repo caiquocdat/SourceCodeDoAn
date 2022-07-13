@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyEditTextStyle" parent="@android:style/TextAppearance.Widget.EditText">
+        <item name="android:background">@color/transparence</item> //NO UNDERBAR
+        <item name="android:maxLines">1</item>
+        <item name="android:height">28dp</item> //COMMON HEIGHT
+    </style>
+    <style name="AppThemNo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+    <style name="AppThemNo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppThemNo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="20dp"
+    android:background="@drawable/backgr2">
+    <ImageView
+        android:id="@+id/logoUte"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_ute"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:id="@+id/textSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:layout_below="@id/logoUte"
+        android:textColor="#3782f5"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:paddingTop="10dp"
+        android:layout_below="@+id/textSignUp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/emailTIL"
+        android:textColorHint="#3782f5"
+        android:background="@drawable/custom_edittext"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/transparence"
+        app:hintTextColor="#2AF598"
+        >
+
+        <EditText
+            android:paddingRight="15dp"
+            android:paddingLeft="25dp"
+            style="@style/MyEditTextStyle"
+
+            android:id="@+id/emailEt"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/passswordTIL"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@+id/emailTIL"
+        android:textColorHint="#3782f5"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        app:hintTextColor="#2AF598"
+        >
+        <EditText
+            android:paddingRight="38dp"
+            android:paddingLeft="25dp"
+            style="@style/MyEditTextStyle"
+            android:id="@+id/passwordEt"
+            android:inputType="textPassword"
+            android:hint="Passsword"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        android:drawableLeft="@drawable/ic_register"
+        android:id="@+id/registerBtn"
+        android:text="  Register"
+        android:layout_below="@id/passswordTIL"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/have_accountTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have account? Login"
+        android:textAlignment="center"
+        android:layout_below="@id/registerBtn"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+</RelativeLayout>

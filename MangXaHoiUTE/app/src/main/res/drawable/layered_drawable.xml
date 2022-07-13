@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <inset
+        android:insetLeft="30sp"
+        android:drawable="@drawable/ic_key"
+        ></inset>
+
+</item>
+</layer-list>

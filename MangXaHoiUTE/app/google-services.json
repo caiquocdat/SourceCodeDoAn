@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "103874814636",
+    "firebase_url": "https://mangxahoiute-default-rtdb.firebaseio.com",
+    "project_id": "mangxahoiute",
+    "storage_bucket": "mangxahoiute.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103874814636:android:f151d5421159202eb27509",
+        "android_client_info": {
+          "package_name": "com.example.mangxahoiute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103874814636-oi50mq225dukm9ddh8ahd6d314nlof5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mangxahoiute",
+            "certificate_hash": "8fa02b8fecbc9e504465b5606b6f751375f1dc90"
+          }
+        },
+        {
+          "client_id": "103874814636-5f9h0vb3lg9vrma5f33ulf7jlut74fts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxclTmEgucRy4F3L-E4PKnZdqRd4X4BgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103874814636-5f9h0vb3lg9vrma5f33ulf7jlut74fts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
